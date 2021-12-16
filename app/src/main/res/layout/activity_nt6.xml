@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:id="@+id/t_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="濕地公園 Wetland Park"
+            android:textSize="30dp"
+            android:background="@drawable/shape"/>
+
+
+
+        <ImageView
+            android:id="@+id/hk_1"
+            android:src="@drawable/nt6"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#FF9900"
+            android:scaleType="fitXY"
+            android:layout_below="@id/t_1"
+            android:layout_marginTop="30dp"
+            />
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="想一看雀鳥追逐嬉水？招潮蟹與彈塗魚在濕地上的泥漿角力？到香港濕地公園來！您還會發現更多大自然的奇妙之處！
+香港濕地公園是一個世界級的生態旅遊設施，分為「訪客中心 ── 濕地互動世界」及「濕地保護區」兩大部分，園內有品種繁多的動物，包括雀鳥、蝴蝶、蜻蜓、兩棲和爬行類及魚類，讓訪客欣賞香港大自然之美，並探索野生生物的奇趣。
+濕地互動世界
+「濕地互動世界」設有主題展覽廊、3D濕地影院、放映室、錯視藝術畫及兒童遊戲區（沼澤歷奇），向訪客介紹有關濕地生物的多樣性、與人類文明發展的關係，以及保育的重要性。在「濕地快拍」遊戲區，您還可以與公園的濕地明星合照留念！
+濕地保護區
+濕地保護區佔地約60公頃，是一片為水鳥及其他野生生物而重建的濕地生境。您可以在溪畔漫遊徑、紅樹林浮橋、原野漫遊徑等步道、蝴蝶園、觀鳥屋和鱷魚明星的「貝貝之家」，近距離欣賞各式各樣的動植物。
+Hong Kong Wetland Park is a world-class ecotourism park that's a fantastic spot to enjoy some of Hong Kong’s unique flora and fauna. The park is also home to an impressive cast of wildlife, including birds, butterflies, dragonflies, amphibians, reptiles and fish. A visitor centre — Wetland Interactive World — and a 60-hectare Wetland Reserve will enhance your understanding and enjoyment of this ecosystem as you appreciate the beauty of nature and explore the amazing wildlife.
+Wetland Interactive World
+Inside Wetland Interactive World there are themed exhibition galleries, 3D cinema and trick art, a theatre and the Swamp Adventure indoor play area. The exhibitions showcase the importance of wetlands conservation and provide a hands-on experience of being a wetlands reporter. You can also take snapshots to capture fond memories with wetland celebrities. Just make sure you watch out for the singing fish!
+Did you know?
+First sighted at Shan Pui River in the northwest New Territories in November 2003, the then juvenile salt water crocodile is suspected to have been an illegal pet dumped into the river. She was caught by AFCD staff after seven months and named ‘Pui Pui’ — a name chosen out of 1,600 entries in a territory-wide contest, which means ‘the precious one’ and echoes the name of the river where it was found.
+ Visitors of Hong Kong Wetland Park can head to her beautifully landscaped 72-square-metre outdoor enclosure for a chance to spot her up close.
+Wetland Reserve
+The outdoor Wetland Reserve comprises recreated wetland habitats specially designed for waterfowl and other wildlife. Other features include Stream Walk, Mangrove Boardwalk, Butterfly Garden and three bird hides that bring you closer to the habitats and wildlife. Don’t miss the refurbished home of celebrity crocodile Pui Pui and the new boardwalk connecting Fishpond Hide and the Wildside Walk!
+" android:textSize="20sp" />
+        <Button
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/t2"
+            android:background="@drawable/shape"
+            android:text="更多資訊 More Information"
+            android:textSize="20dp"/>
+        <Button
+            android:id="@+id/loc1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/view"
+            android:background="@drawable/shape"
+            android:text="路線"
+            android:textSize="50dp"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

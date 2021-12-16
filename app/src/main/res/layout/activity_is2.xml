@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:id="@+id/t_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="大澳棚屋Tai O Stilt Houses"
+            android:textSize="30dp"
+            android:background="@drawable/shape"/>
+
+
+
+        <ImageView
+            android:id="@+id/hk_1"
+            android:src="@drawable/is2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#FF9900"
+            android:scaleType="fitXY"
+            android:layout_below="@id/t_1"
+            android:layout_marginTop="30dp"
+            />
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=" 棚屋是大澳漁村的標誌，也是香港最為獨特的景觀之一。大澳曾是香港的主要漁港和駐軍鄉鎮，也是百年來的漁鹽業重地。世代以來，大澳都是漁民蜑家人的聚居地，漁民認為在平實的土地上居住缺乏安全感，所以就在岸邊建造棚屋住下來。密密麻麻的棚屋、縱橫交錯的水道與橋樑，因而構成大澳現今的面貌。
+大澳的棚屋就建在漁村中間一條河道的兩旁。棚屋戶戶相連，部分通道更會穿過鄰居的客廳或廚房，造就了親近的鄰里關係。傳統棚屋依漁船的概念設計，棚頭是漁民日常作息的地方，棚尾則用來曬鹹魚、海帶等。遊大澳，您可以乘舢舨小艇在水道中穿梭，近距離欣賞棚屋；又或者在漁村裡走一圈，感受大澳的漁村風貌。
+Tai O is home to the Tanka people, a community of fisher folk who’ve built their houses on stilts above the tidal flats of Lantau Island for generations. These unusual structures are interconnected, forming a tightly knit community that literally lives on the water. Their enchanting world is a photographer's paradise.
+The manually operated drawbridge that spans the narrow creek dividing the town replaced a rope-drawn ‘ferry’ that operated for over 85 years.
+" android:textSize="20sp" />
+        <Button
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/t2"
+            android:background="@drawable/shape"
+            android:text="更多資訊 More Information"
+            android:textSize="20dp"/>
+        <Button
+            android:id="@+id/loc1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/view"
+            android:background="@drawable/shape"
+            android:text="路線"
+            android:textSize="50dp"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

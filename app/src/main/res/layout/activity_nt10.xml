@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:id="@+id/t_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="南豐紗廠 The Mills"
+            android:textSize="30dp"
+            android:background="@drawable/shape"/>
+
+
+
+        <ImageView
+            android:id="@+id/hk_1"
+            android:src="@drawable/nt10"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#FF9900"
+            android:scaleType="fitXY"
+            android:layout_below="@id/t_1"
+            android:layout_marginTop="30dp"
+            />
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="南豐紗廠前身為南豐紡織，原有三幢獨立舊廠房，是香港1960年代產量最高的紗廠之一，見證了在地製造業蓬勃發展的黃金年代。2014年，南豐集團推出活化紗廠計劃，將其改建成集創新、文化及連結社區功能於一身的文創地標。
+南豐紗廠透過保育與活化工程，賦予舊廠房新生命，成為獨一無二且富現代感的空間。為了使建築更具空間感，原有樓高三層的廠房中央經打通後高達13公尺，連同新置的玻璃天窗，成為南豐紗廠的中心地帶；兩旁混凝土原貌的支柱以鋼材加固，1960年代舊式工廠常見的綠色油漆牆身雖然沒有任何修飾，卻是有說服力的存在憑證，傳承了當年工業輝煌時代，香港人自強不息的精神。
+無論是旅客、藝術家，或是秉承拼博精神的工匠，都能在南豐紗廠找到一份歸屬感。在「六廠紡織文化藝術館」，你可以深入了解歷史、體驗多元的藝術；「南豐店堂」讓你享受在地手工餐飲及體驗式購物；至於「南豐作坊」，則是 techstyle 創業家的培育基地。
+The Mills, formerly known as Nan Fung Textiles, was one of the most productive spinning factories in Hong Kong and witnessed the city’s manufacturing heyday in the 1960s. The structure is comprised of three buildings developed between the 1960s-1970s. In 2014, Nan Fung Group began an extensive architectural conservation to preserve the historic make-up of the buildings to become The Mills, transforming the structures into a destination for innovation, culture, creativity and community.
+The end result of the revitalisation process is a distinct, contemporary space with historical significance, housing collective memories. Columns have been reinforced by inches of thick steel and the dramatic 13 metre-high skylight ushers sunlight into the central atrium. The walls, left untouched, are dotted by the green paint used by many factories in the 1960s and serves as a reminder of the ‘can-do’ spirit of Hong Kong’s industrial era.
+The Mills is now a home for tourists, artists and makers. For local artisanal F B and experiential shopping such as the world's first consumer facing G2G (Garment to Garment) textile recycling system, there is Shopfloor; for history and art, there is CHAT; and for techstyle entrepreneurs, there is Fabrica.
+" android:textSize="20sp" />
+        <Button
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/t2"
+            android:background="@drawable/shape"
+            android:text="更多資訊 More Information"
+            android:textSize="20dp"/>
+        <Button
+            android:id="@+id/loc1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/view"
+            android:background="@drawable/shape"
+            android:text="路線"
+            android:textSize="50dp"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

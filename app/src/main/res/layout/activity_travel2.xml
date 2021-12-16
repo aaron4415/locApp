@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:id="@+id/t_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="數碼港 Cyberport"
+            android:textSize="30dp"
+            android:background="@drawable/shape"/>
+
+
+
+        <ImageView
+            android:id="@+id/hk_1"
+            android:src="@drawable/hk3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#FF9900"
+            android:scaleType="fitXY"
+            android:layout_below="@id/t_1"
+            android:layout_marginTop="30dp"
+            />
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=" 數碼港位於香港島南區薄扶林鋼綫灣，設施包括商場、戲院、酒店、數碼媒體中心和草地公園等。 假日有很多人都會在草地裏野餐和遛狗， 是一個適合一家大小及情侶拍拖的休閒好去處。
+Cyberport is located in Steel Line Bay, Pok Fu Lam, South Island, Hong Kong. Facilities include shopping malls, cinemas, hotels, digital media centres and grass parks. There are many people on the holiday who have picnics and walks the dog in the grass,it is a good place for a family and a couple to take a break.
+
+" android:textSize="20sp" />
+        <Button
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/t2"
+            android:background="@drawable/shape"
+            android:text="更多資訊 More Information"
+            android:textSize="20dp"/>
+        <Button
+            android:id="@+id/loc1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/view"
+            android:background="@drawable/shape"
+            android:text="路線"
+            android:textSize="50dp"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

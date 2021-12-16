@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:id="@+id/t_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="青衣戲棚 Tsing Yi Bamboo Theatre"
+            android:textSize="30dp"
+            android:background="@drawable/shape"/>
+
+
+
+        <ImageView
+            android:id="@+id/hk_1"
+            android:src="@drawable/nt11"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#FF9900"
+            android:scaleType="fitXY"
+            android:layout_below="@id/t_1"
+            android:layout_marginTop="30dp"
+            />
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="是香港青衣一年兩度大型傳統節慶活動，於每年農曆三、四月舉行，目的是慶祝「真君大帝寶誕」（農曆三月十二至十六）以及「天后寶誕」（農曆四月初一至初五）。戲棚除了有粵曲表演以外，旁邊的空地亦設有數十個傳統小吃攤檔。和很多參拜的地方一樣，戲棚亦有轉運風車售賣。
+" android:textSize="20sp" />
+        <Button
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/t2"
+            android:background="@drawable/shape"
+            android:text="更多資訊 More Information"
+            android:textSize="20dp"/>
+        <Button
+            android:id="@+id/loc1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/view"
+            android:background="@drawable/shape"
+            android:text="路線"
+            android:textSize="50dp"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

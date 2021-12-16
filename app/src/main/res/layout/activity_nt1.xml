@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:id="@+id/t_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="廣福道 Kwong Fuk Road"
+            android:textSize="30dp"
+            android:background="@drawable/shape"/>
+
+
+
+        <ImageView
+            android:id="@+id/hk_1"
+            android:src="@drawable/nt1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#FF9900"
+            android:scaleType="fitXY"
+            android:layout_below="@id/t_1"
+            android:layout_marginTop="30dp"
+            />
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="廣福道是香港新界大埔墟的主要道路，東接大埔公路元洲仔段，西接北盛街及跨越林村河的廣福橋，而林村河對岸近大埔政府合署也有一小段掘頭路直入太和邨。廣福道本來是大埔公路的一部份，西北連接大埔公路大窩段通往上水、粉嶺，東南連接大埔公路元洲仔段，為新界東的交通主幹道，後來被改為現稱。1980年代政府發展大埔新市鎮時，橫跨林村河的一段行車橋（廣福橋）被拆卸，政府另建寶鄉橋連接林村河兩岸，使廣福道分為兩部份。其後因興建太和邨，而使林村河以北之一段廣福道與大埔公路大窩段分隔開，成為一條掘頭路。
+" android:textSize="20sp" />
+        <Button
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/t2"
+            android:background="@drawable/shape"
+            android:text="更多資訊 More Information"
+            android:textSize="20dp"/>
+        <Button
+            android:id="@+id/loc1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/view"
+            android:background="@drawable/shape"
+            android:text="路線"
+            android:textSize="50dp"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

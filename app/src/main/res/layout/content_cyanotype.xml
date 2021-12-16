@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".CyanotypeActivity"
+    tools:showIn="@layout/activity_cyanotype">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            tools:ignore="MissingConstraints">
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="50dp"
+                android:text="What is Cyanotype?"
+                tools:ignore="MissingConstraints" />
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/t1"
+                android:text="
+
+藍曬，本是英國物理學家John Herschel於1842年發明，後經John植物學家朋友Anna Atkins再度探索，將之與攝影給合，變成一種紀錄植物紋理的顯影術或被應用成一種複印技術。早期的印刷業便憑這技術，印製出無數的工程師、設計師、建築家的「藍圖」。而在偶爾下接觸藍曬法的夏敬業，就不知怎的被那只有藍調的單色畫面吸引，找來化學用品和藥水反覆研究練習，在曬出「失敗」與「滿意」成果之間徘徊，卻從未想過拋開這種與時代已脫節的技術，經一輪苦功，夏敬業最後也找到藍曬法的竅門和獨家秘方。
+"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

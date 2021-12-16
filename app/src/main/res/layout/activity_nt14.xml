@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:id="@+id/t_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="老圍Lo Wai"
+            android:textSize="30dp"
+            android:background="@drawable/shape"/>
+
+
+
+        <ImageView
+            android:id="@+id/hk_1"
+            android:src="@drawable/nt14"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#FF9900"
+            android:scaleType="fitXY"
+            android:layout_below="@id/t_1"
+            android:layout_marginTop="30dp"
+            />
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="老圍位於松嶺鄧公祠西面，為該區鄧氏最早創建的圍村。
+老圍立於小丘上，四面有圍牆環繞。圍門原是北向，由於風水理由而改為東向，門甚窄小，以利防守。圍內房舍排列整齊，圍門側有一口水井，以往為村民的食水來源。圍牆上築有供守望用的高台。老圍雖然經歷多次改建，但圍牆結構及圍村布局仍保持完好。
+Situated west of the Tang Chung Ling Ancestral Hall, Lo Wai was the first walled village built by the Tang Clan in the area.
+Located on a small hill, Lo Wai was enclosed by brick walls on four sides. The original village entrance faced north, but was relocated later to face east in order to generate better feng shui. It was also designed to be narrow in order to facilitate the defence of the village. The houses inside the village are arranged in an orderly manner. Next to the entrance is a well, which provided the village with its water supply. Raised platforms were built on the enclosing walls to serve as watchtowers. Although the village has undergone several changes, the village walls and layout of the village still exist. A full restoration was undertaken in 1997 with the generous financial support of the Hong Kong Jockey Club Charities Trust.
+" android:textSize="20sp" />
+        <Button
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/t2"
+            android:background="@drawable/shape"
+            android:text="更多資訊 More Information"
+            android:textSize="20dp"/>
+        <Button
+            android:id="@+id/loc1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/view"
+            android:background="@drawable/shape"
+            android:text="路線"
+            android:textSize="50dp"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

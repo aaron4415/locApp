@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:id="@+id/t_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="春秧街 Chun Yeung Street"
+            android:textSize="30dp"
+            android:background="@drawable/shape"/>
+
+
+
+        <ImageView
+            android:id="@+id/hk_1"
+            android:src="@drawable/hk9"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#FF9900"
+            android:scaleType="fitXY"
+            android:layout_below="@id/t_1"
+            android:layout_marginTop="30dp"
+            />
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="香港，傳統的露天市場不只春秧街一個，但它卻是最具特色的。給您介紹逛春秧街最過癮的方法：不用走的，坐電車去！
+坐電車逛市場？沒搞錯吧？沒錯，這是因為春秧街露天市場的旁邊，就是糖水道電車總站，電車在進入總站前，會先經過市場，而菜販、肉販都會將攤子擺在馬路上售賣，出現電車走進市場內的奇景。
+您可以在銅鑼灣開始乘坐電車，當電車從北角英皇道左轉進入春秧街時，您就要開始留意了：如果您坐在電車上層，探頭往窗外一看，從鳥瞰的角度，就會發現整條電車路軌，竟然被大大小小的攤子、木頭手推車以及人群所淹沒！路上盡是黑壓壓的人頭，電車唯有小心翼翼的前進，人們只有在電車接近時才慢慢讓出路來。如果您是坐在電車下層的話，更可以在車廂內清楚聽到菜販魚販的叫嚷聲、甚至是豬肉攤子的切肉聲！ 這種熱鬧的場景，令人彷彿忘了自己其實是置身於電車之內。
+在糖水街電車總站下車後，您可以逛逛附近的馬寶道，這條街以售賣廉宜服裝衣飾及日用品的攤子而聞名。返回剛才電車經過的春秧街，市場兩邊的店鋪及露天攤販有的賣菜賣肉，有的賣雜貨及花；每天早上或傍晚，這裡都擠滿了前來買菜的主婦們。提醒一下，為了您的安全，請不要走在電車路軌上喔，因為下一班列車很快又要駛進來了！
+Hong Kong’s multitude of wet markets are windows into a vivid and timeless world of food shopping that refuses to be extinguished by modern supermarkets.
+Of all the wet markets in the city, none offer as grand an entrance as the Chun Yeung Market. Hop on an eastbound tram heading towards the North Point tram terminus and, without warning, you’ll swing off the broad King’s Road onto a narrow street which is lined on either side with buzzy stalls selling fresh fruits, vegetables, meat and seafood. Experience the sights and sounds of old-school market business in full swing.
+Across from Chun Yeung Street you will find Marble Road, an open-air bazaar selling a wide array of merchandise, from clothing to accessories and household items at reasonable prices. Pop by for a feel of what everyday shopping is like in the area, and don’t miss the streets nearby that are also lined with local stores.
+
+" android:textSize="20sp" />
+        <Button
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/t2"
+            android:background="@drawable/shape"
+            android:text="更多資訊 More Information"
+            android:textSize="20dp"/>
+        <Button
+            android:id="@+id/loc1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/view"
+            android:background="@drawable/shape"
+            android:text="路線"
+            android:textSize="50dp"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

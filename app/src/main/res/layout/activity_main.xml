@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+<ImageView
+    android:id="@+id/hk_1"
+android:src="@drawable/blue"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="#FF9900"
+    android:scaleType="fitXY"
+    android:layout_marginTop="30dp"/>
+    <ImageView
+        android:id="@+id/hk_2"
+        android:src="@drawable/welcome"
+        android:layout_below="@id/hk_1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#FF9900"
+        android:scaleType="fitXY"/>
+    <ImageView
+        android:id="@+id/hk_3"
+        android:src="@drawable/cchk"
+        android:layout_below="@id/hk_2"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="#FF9900"
+        android:scaleType="fitXY"/>
+
+<Button
+    android:id="@+id/btn_login"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_below="@id/hk_3"
+    android:background="@drawable/shape"
+    android:text="開始使用"
+    android:textSize="50dp"/>
+
+    </RelativeLayout>

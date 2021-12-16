@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:id="@+id/t_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="元朗公園 Yurn Long Park"
+            android:textSize="30dp"
+            android:background="@drawable/shape"/>
+
+
+
+        <ImageView
+            android:id="@+id/hk_1"
+            android:src="@drawable/nt2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#FF9900"
+            android:scaleType="fitXY"
+            android:layout_below="@id/t_1"
+            android:layout_marginTop="30dp"
+            />
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="公園依山而建，並且廣植花木，景色優美宜人。一千多棵青葱的樹木，遍布園中每一角落。山崗上建有百鳥塔，低層是鳥舍，高層為觀景塔，遊人可環觀元朗市及天水圍新市鎮。瀑布花園內有小橋流水、人工湖和瀑布，令人樂而忘返。此外，公園內還有草地門球場、硬地足球場、兒童遊樂場、健身徑和噴泉廣場等康樂設施，是消閑遊玩的好去處。
+Built on a hill, the park has preserved as much as possible the original landform and trees to present a beautiful picture.  There are more than 1000 trees scattered around in the park.  At the top of the hill is a pagoda with its lowest level serving as an aviary and the upper levels as a lookout offering a panoramic view of Yuen Long Town and Tin Shui Wai New Town.  There is also an exquisite ravine garden with a small footbridge and a stream as well as an artificial lake and a waterfall, where visitors can relax and have a good time.  Other facilities in the park include a turfed gateball court, hard-surface soccer pitches, a children's playground, a fitness trail and a fountain plaza.  All in all, the park is a good place to enjoy and have fun.
+" android:textSize="20sp" />
+        <Button
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/t2"
+            android:background="@drawable/shape"
+            android:text="更多資訊 More Information"
+            android:textSize="20dp"/>
+        <Button
+            android:id="@+id/loc1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/view"
+            android:background="@drawable/shape"
+            android:text="路線"
+            android:textSize="50dp"/>
+
+
+    </LinearLayout>
+
+</ScrollView>
+

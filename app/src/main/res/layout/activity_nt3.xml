@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:id="@+id/t_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="八鄉古廟 Pat Heung Old Temple"
+            android:textSize="30dp"
+            android:background="@drawable/shape"/>
+
+
+
+        <ImageView
+            android:id="@+id/hk_1"
+            android:src="@drawable/nt3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#FF9900"
+            android:scaleType="fitXY"
+            android:layout_below="@id/t_1"
+            android:layout_marginTop="30dp"
+            />
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="擁有 200 多年歷史的八鄉古廟，建於 1763 年，背山面海，在日治時期為抗日基地，由建廟至今，共維修過 4 次，廟內共分 4 個大殿，供奉觀音、侯王、華光和天后。廟宇的香爐更是文物，刻有「光緒廿三年秋月」字樣。八鄉古廟在八鄉居民心目中，擁崇高尊貴的地位。每逢賀誕慶典，所有鄉親父老一起參拜，更加熱鬧。遊客在齋期來到這裡，認識古蹟文化外，更可在食堂飽嚐這裡有名的盆菜呢！
+Pat Heung Old Temple, located at Pak Heung Sheung Tsuen, has always been a symbol of glory and dignity to Pat Heung indigenous villagers. Built over 200 years ago, it has been a sacred place to hold the most important annual events - Spring and Autumn worship to God and ancestors and the celebration of the birth of Kwun Yam. During these events, hundreds of banquet tables serving Heritage Bowl or vegetarian food are arranged in the wide and open space in front of the Temple.
+" android:textSize="20sp" />
+        <Button
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/t2"
+            android:background="@drawable/shape"
+            android:text="更多資訊 More Information"
+            android:textSize="20dp"/>
+        <Button
+            android:id="@+id/loc1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/view"
+            android:background="@drawable/shape"
+            android:text="路線"
+            android:textSize="50dp"/>
+
+
+    </LinearLayout>
+
+</ScrollView>
+

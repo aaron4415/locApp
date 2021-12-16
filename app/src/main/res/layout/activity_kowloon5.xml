@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:id="@+id/t_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="城門水塘 Shing Mun Reservoir"
+            android:textSize="30dp"
+            android:background="@drawable/shape"/>
+
+
+
+        <ImageView
+            android:id="@+id/hk_1"
+            android:src="@drawable/kc5"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#FF9900"
+            android:scaleType="fitXY"
+            android:layout_below="@id/t_1"
+            android:layout_marginTop="30dp"
+            />
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=" 城門水塘及下城門水塘位於大帽山東南山腳下的城門郊野公園內。城門供水計劃的構思始於一九二三年，分三期進行；城門水塘是香港第一個把存水由九龍區輸往港島區使用的水塘。而下城門水塘則於一九六五年開始供水，是船灣淡水湖供水計劃之一部份，兩個水塘儲水量共一千七百五十八萬立方米。
+水塘四周山巒蒼翠，草木茂盛，是香港主要植林區之一。
+The Shing Mun Reservoir and the Lower Shing Mun Reservoir, located in the Shing Mun Country Park at the south-eastern mountain foot of Tai Mo Shan. Plans for construction of the Shing Mun Water Supply Scheme were formulated in 1923 and rolled out in three phases. The Shing Mun Reservoir was the first reservoir transferring the storage from Kowloon to the Hong Kong Island. The Lower Shing Mun Reservoir, commissioned in 1965, forms part of the Plover Cove Scheme. The two reservoirs have a total storage capacity of 17.58 million cubic metres.The reservoirs are surrounded by green hills and luxuriant vegetation. The area is a major afforestation in Hong Kong.
+" android:textSize="20sp" />
+        <Button
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/t2"
+            android:background="@drawable/shape"
+            android:text="更多資訊 More Information"
+            android:textSize="20dp"/>
+        <Button
+            android:id="@+id/loc1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/view"
+            android:background="@drawable/shape"
+            android:text="路線"
+            android:textSize="50dp"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

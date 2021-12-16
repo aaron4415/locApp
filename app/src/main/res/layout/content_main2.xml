@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <ImageView
+        android:id="@+id/hk_1"
+        android:src="@drawable/hkloc"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#FF9900"
+        android:scaleType="fitXY"/>
+    <Button
+        android:id="@+id/travel"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/hk_1"
+        android:background="@drawable/shape"
+        android:text="港島區 Hong Kong Island"
+        android:textSize="20dp"/>
+
+    <ImageView
+        android:id="@+id/hk_2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/travel"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-2dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:background="#FF9900"
+        android:scaleType="fitXY"
+        android:src="@drawable/kl" />
+    <Button
+        android:id="@+id/eat"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/hk_2"
+        android:background="@drawable/shape"
+        android:text="九龍Kowloon"
+        android:textSize="30dp"/>
+
+    <ImageView
+        android:id="@+id/hk_3"
+        android:layout_width="match_parent"
+        android:layout_height="177dp"
+        android:layout_below="@id/eat"
+        android:background="#FF9900"
+        android:scaleType="fitXY"
+        android:src="@drawable/nt" />
+    <Button
+        android:id="@+id/relax"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/hk_3"
+        android:background="@drawable/shape"
+        android:text="新界New Territories"
+        android:textSize="20dp"/>
+    <ImageView
+        android:id="@+id/hk_4"
+        android:layout_width="match_parent"
+        android:layout_height="177dp"
+        android:layout_below="@id/relax"
+        android:background="#FF9900"
+        android:scaleType="fitXY"
+        android:src="@drawable/is" />
+    <Button
+        android:id="@+id/land"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/hk_4"
+        android:background="@drawable/shape"
+        android:text="離島 Islands"
+        android:textSize="20dp"/>
+    <ImageView
+        android:id="@+id/blueS"
+        android:layout_width="match_parent"
+        android:layout_height="177dp"
+        android:layout_below="@id/land"
+        android:background="#FF9900"
+        android:scaleType="fitXY"
+        android:src="@drawable/bluesss" />
+    <Button
+        android:id="@+id/c"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/blueS"
+        android:background="@drawable/shape"
+        android:text="藍曬介紹Cyanotype Info"
+        android:textSize="20dp"/>
+    <ImageView
+        android:id="@+id/web_1"
+        android:layout_width="match_parent"
+        android:layout_height="177dp"
+        android:layout_below="@id/c"
+        android:background="#FF9900"
+        android:scaleType="fitXY"
+        android:src="@drawable/web" />
+    <Button
+        android:id="@+id/web"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/web_1"
+        android:background="@drawable/shape"
+        android:text="View Our Website"
+        android:textSize="20dp"/>
+
+
+
+    <ScrollView
+        android:layout_height="200px"
+        android:layout_width="fill_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+</ScrollView>

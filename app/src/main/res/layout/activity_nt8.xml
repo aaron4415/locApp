@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:id="@+id/t_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="蝴蝶灣公園Butterfly Beach"
+            android:textSize="30dp"
+            android:background="@drawable/shape"/>
+
+
+
+        <ImageView
+            android:id="@+id/hk_1"
+            android:src="@drawable/nt8"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#FF9900"
+            android:scaleType="fitXY"
+            android:layout_below="@id/t_1"
+            android:layout_marginTop="30dp"
+            />
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="蝴蝶灣位於新界屯門區，附近有公園、燒烤場、泳灘、輕鐵站和商場等，交通非常方便。蝴蝶灣燒烤場有80個燒烤爐，是香港最多燒烤爐的場地。旁邊更有泳灘，黃昏時分更可看到日落，非常適合三五知己來玩樂。
+蝴蝶灣海濱公園
+一進入蝴蝶灣公園範圍就是海濱公園，海濱公園分為左右兩條路，左邊可沿路欣賞蝴蝶灣泳灘風景，飽覽一望無際的海景。而右邊的路兩旁栽種了大量樹木可遮蔭，怕曬的朋友也不用怕。樹蔭及海風配合，沿路相當舒服。 沿路亦有不同的康樂設施，如石春路等。在海濱公園走累了亦有椅子作休息也能同時欣賞海景。
+" android:textSize="20sp" />
+        <Button
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/t2"
+            android:background="@drawable/shape"
+            android:text="更多資訊 More Information"
+            android:textSize="20dp"/>
+        <Button
+            android:id="@+id/loc1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/view"
+            android:background="@drawable/shape"
+            android:text="路線"
+            android:textSize="50dp"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

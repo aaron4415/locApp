@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.locapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="See See HK"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.FullScreen">
+        <activity android:name=".Is2Activity"></activity>
+        <activity android:name=".Is1Activity" />
+        <activity android:name=".Main6Activity" />
+        <activity android:name=".Nt14Activity" />
+        <activity android:name=".Nt13Activity" />
+        <activity android:name=".Nt12Activity" />
+        <activity android:name=".Nt11Activity" />
+        <activity android:name=".Nt10Activity" />
+        <activity android:name=".Nt9Activity" />
+        <activity android:name=".Nt8Activity" />
+        <activity android:name=".Nt7Activity" />
+        <activity android:name=".Nt6Activity" />
+        <activity android:name=".Nt5Activity" />
+        <activity android:name=".Nt4Activity" />
+        <activity android:name=".Nt3Activity" />
+        <activity android:name=".Nt2Activity" />
+        <activity android:name=".Nt1Activity" />
+        <activity android:name=".Main5Activity" />
+        <activity android:name=".Kowloon7Activity" />
+        <activity android:name=".Kowloon6Activity" />
+        <activity android:name=".Kowloon5Activity" />
+        <activity android:name=".Kowloon4Activity" />
+        <activity android:name=".Kowloon3Activity" />
+        <activity android:name=".Kowloon2Activity" />
+        <activity android:name=".Kowloon1Activity" />
+        <activity android:name=".Main4Activity" />
+        <activity android:name=".Web9Activity" />
+        <activity android:name=".Travel8Activity" />
+        <activity android:name=".Web8Activity" />
+        <activity android:name=".Travel7Activity" />
+        <activity android:name=".Web7Activity" />
+        <activity android:name=".Travel6Activity" />
+        <activity android:name=".Web6Activity" />
+        <activity android:name=".Travel5Activity" />
+        <activity android:name=".Web5Activity" />
+        <activity android:name=".Travel4Activity" />
+        <activity android:name=".Web4Activity" />
+        <activity android:name=".Travel3Activity" />
+        <activity android:name=".Web3Activity" />
+        <activity android:name=".Travel2Activity" />
+        <activity android:name=".Web2Activity" />
+        <activity android:name=".Travel1Activity" />
+        <activity android:name=".Web1Activity" />
+        <activity
+            android:name=".TravelActivity"
+            android:label="@string/title_activity_travel"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".WelComeActivity"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main3Activity" />
+        <activity
+            android:name=".RelaxActivity"
+            android:label="@string/title_activity_relax"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CyanotypeActivity"
+            android:label="@string/title_activity_cyanotype"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EatActivity"
+            android:label="@string/title_activity_eat"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".WebActivity"
+            android:label="@string/title_activity_web"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MainActivity" />
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+</manifest>

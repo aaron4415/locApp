@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+        <ImageView
+            android:id="@+id/hk_1"
+            android:src="@drawable/nt1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#FF9900"
+            android:scaleType="fitXY"/>
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/hk_1"
+            android:background="@drawable/shape"
+            android:text="廣福道 Kwong Fuk Road"
+            android:textSize="20dp"/>
+
+        <ImageView
+            android:id="@+id/hk_2"
+            android:layout_width="match_parent"
+            android:layout_height="183dp"
+            android:layout_below="@id/b1"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="-2dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginRight="1dp"
+            android:background="#FF9900"
+            android:scaleType="fitXY"
+            android:src="@drawable/nt2" />
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/hk_2"
+            android:background="@drawable/shape"
+            android:text="元朗公園 Yurn Long Park"
+            android:textSize="20dp"/>
+
+        <ImageView
+            android:id="@+id/hk_3"
+            android:layout_width="match_parent"
+            android:layout_height="177dp"
+            android:layout_below="@id/b2"
+            android:background="#FF9900"
+            android:scaleType="fitXY"
+            android:src="@drawable/nt3" />
+        <Button
+            android:id="@+id/b3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/hk_3"
+            android:background="@drawable/shape"
+            android:text="八鄉古廟 Pat Heung Old Temple"
+            android:textSize="15dp"/>
+        <ImageView
+            android:id="@+id/hk_4"
+            android:layout_width="match_parent"
+            android:layout_height="177dp"
+            android:layout_below="@id/b3"
+            android:background="#FF9900"
+            android:scaleType="fitXY"
+            android:src="@drawable/nt4" />
+        <Button
+            android:id="@+id/b4"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/hk_4"
+            android:background="@drawable/shape"
+            android:text="錦上路跳蚤市場 Kam Sheung Road Flea Market"
+            android:textSize="15dp"/>
+        <ImageView
+            android:id="@+id/hk_5"
+            android:layout_width="match_parent"
+            android:layout_height="177dp"
+            android:layout_below="@id/b4"
+            android:background="#FF9900"
+            android:scaleType="fitXY"
+            android:src="@drawable/nt5" />
+        <Button
+            android:id="@+id/b5"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/hk_5"
+            android:background="@drawable/shape"
+            android:text="南生圍 Nam Sang Wai"
+            android:textSize="20dp"/>
+        <ImageView
+            android:id="@+id/hk_6"
+            android:layout_width="match_parent"
+            android:layout_height="177dp"
+            android:layout_below="@id/b5"
+            android:background="#FF9900"
+            android:scaleType="fitXY"
+            android:src="@drawable/nt6" />
+        <Button
+            android:id="@+id/b6"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/hk_6"
+            android:background="@drawable/shape"
+            android:text="濕地公園 Wetland Park"
+            android:textSize="30dp"/>
+        <ImageView
+            android:id="@+id/hk_7"
+            android:layout_width="match_parent"
+            android:layout_height="177dp"
+            android:layout_below="@id/b6"
+            android:background="#FF9900"
+            android:scaleType="fitXY"
+            android:src="@drawable/nt7" />
+        <Button
+            android:id="@+id/b7"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/hk_7"
+            android:background="@drawable/shape"
+            android:text="藍巴勒海峽wikiwand"
+            android:textSize="30dp"/>
+        <ImageView
+            android:id="@+id/hk_8"
+            android:layout_width="match_parent"
+            android:layout_height="177dp"
+            android:layout_below="@id/b7"
+            android:background="#FF9900"
+            android:scaleType="fitXY"
+            android:src="@drawable/nt8" />
+        <Button
+            android:id="@+id/b8"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/hk_8"
+            android:background="@drawable/shape"
+            android:text="蝴蝶灣公園Butterfly Beach"
+            android:textSize="20dp"/>
+        <ImageView
+            android:id="@+id/hk_9"
+            android:layout_width="match_parent"
+            android:layout_height="177dp"
+            android:layout_below="@id/b8"
+            android:background="#FF9900"
+            android:scaleType="fitXY"
+            android:src="@drawable/nt9" />
+        <Button
+            android:id="@+id/b9"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/hk_9"
+            android:background="@drawable/shape"
+            android:text="釣魚灣泳灘 Anglers' Beach"
+            android:textSize="20dp"/>
+        <ImageView
+            android:id="@+id/hk_10"
+            android:layout_width="match_parent"
+            android:layout_height="177dp"
+            android:layout_below="@id/b9"
+            android:background="#FF9900"
+            android:scaleType="fitXY"
+            android:src="@drawable/nt10" />
+        <Button
+            android:id="@+id/b10"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/hk_10"
+            android:background="@drawable/shape"
+            android:text="南豐紗廠 The Mills"
+            android:textSize="20dp"/>
+        <ImageView
+            android:id="@+id/hk_11"
+            android:layout_width="match_parent"
+            android:layout_height="177dp"
+            android:layout_below="@id/b10"
+            android:background="#FF9900"
+            android:scaleType="fitXY"
+            android:src="@drawable/nt11" />
+        <Button
+            android:id="@+id/b11"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/hk_11"
+            android:background="@drawable/shape"
+            android:text="青衣戲棚 Tsing Yi Bamboo Theatre"
+            android:textSize="20dp"/>
+        <ImageView
+            android:id="@+id/hk_12"
+            android:layout_width="match_parent"
+            android:layout_height="177dp"
+            android:layout_below="@id/b11"
+            android:background="#FF9900"
+            android:scaleType="fitXY"
+            android:src="@drawable/nt12" />
+        <Button
+            android:id="@+id/b12"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/hk_12"
+            android:background="@drawable/shape"
+            android:text="青山灣海濱長廊 Castle Peak Ba"
+            android:textSize="20dp"/>
+        <ImageView
+            android:id="@+id/hk_13"
+            android:layout_width="match_parent"
+            android:layout_height="177dp"
+            android:layout_below="@id/b12"
+            android:background="#FF9900"
+            android:scaleType="fitXY"
+            android:src="@drawable/nt13" />
+        <Button
+            android:id="@+id/b13"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/hk_13"
+            android:background="@drawable/shape"
+            android:text="廈門灣 Hap Mun Bay"
+            android:textSize="20dp"/>
+        <ImageView
+            android:id="@+id/hk_14"
+            android:layout_width="match_parent"
+            android:layout_height="177dp"
+            android:layout_below="@id/b13"
+            android:background="#FF9900"
+            android:scaleType="fitXY"
+            android:src="@drawable/nt14" />
+        <Button
+            android:id="@+id/b14"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/hk_14"
+            android:background="@drawable/shape"
+            android:text="老圍Lo Wai"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+</ScrollView>

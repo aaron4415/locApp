@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:id="@+id/t_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="長洲 Cheung Chau"
+            android:textSize="30dp"
+            android:background="@drawable/shape"/>
+
+
+
+        <ImageView
+            android:id="@+id/hk_1"
+            android:src="@drawable/is1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#FF9900"
+            android:scaleType="fitXY"
+            android:layout_below="@id/t_1"
+            android:layout_marginTop="30dp"
+            />
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=" 是香港的一個島嶼，因狀似啞鈴而有啞鈴島（英語：Dumbbell Island）的別稱，[1][2]位於大嶼山東南方，屬於連島沙洲，北望喜靈洲，西南方有石鼓洲，距離香港島西南約10公里。長洲行政上被劃入香港十八區中的離島區，現時島上估算人口為兩萬左右，是離島區中人煙最稠密的島嶼。長洲內沒有陸上公共運輸，基本發展尚算完善，除警署、消防局及醫院等基本設備外，亦設有學校、公共屋邨和綜合大樓等基礎建設。長洲是香港著名旅遊景點之一，有不少觀光名勝，例如張保仔洞、長洲北帝廟和長洲石刻等；而渡輪碼頭沿岸一帶則海鮮食肆林立。此外長洲每年均會舉辦盛大的太平清醮，這項活動是長洲最大型的傳統節目，每次均吸引大批人士慕名參觀。島上設有不少青年旅舍、渡假屋，也有酒店。
+Small it may be, but the island of Cheung Chau packs a powerful punch when it comes to attractions. Aside from its annual explosion of Bun Festival fun, Cheung Chau’s temples, seafood restaurants, beaches — and even a pirate’s hideout —  make it an interesting getaway all year round.
+" android:textSize="20sp" />
+        <Button
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/t2"
+            android:background="@drawable/shape"
+            android:text="更多資訊 More Information"
+            android:textSize="20dp"/>
+        <Button
+            android:id="@+id/loc1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/view"
+            android:background="@drawable/shape"
+            android:text="路線"
+            android:textSize="50dp"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

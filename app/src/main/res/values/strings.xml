@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">locApp</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_web">WebActivity</string>
+    <string name="title_activity_eat">EatActivity</string>
+    <string name="title_activity_travel">TravelActivity</string>
+    <string name="title_activity_cyanotype">CyanotypeActivity</string>
+    <string name="title_activity_relax">RelaxActivity</string>
+    <string name="title_activity_mapstest">Map</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_main33">Main33Activity</string>
+</resources>

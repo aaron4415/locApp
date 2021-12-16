@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:id="@+id/t_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="怪獸大廈 Yik Cheong Building"
+            android:textSize="30dp"
+            android:background="@drawable/shape"/>
+
+
+
+        <ImageView
+            android:id="@+id/hk_1"
+            android:src="@drawable/hk8"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#FF9900"
+            android:scaleType="fitXY"
+            android:layout_below="@id/t_1"
+            android:layout_marginTop="30dp"
+            />
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="位於鰂魚涌的怪獸大廈，又稱巨廈。雖說這是巨廈，其實這是由福昌樓、益昌樓、益發樓、海山樓及海景樓，共五棟大廈合體而成，形狀為「E」形的建築物。巨廈於上世紀七十年代建成，有二千多戶，人口或有過萬。建築裡不止有住宅單位，於地面及低層部分，亦有各式各樣的店舖，是個商住混合的小社區。巨廈的地面層以商舖為主，不設閘門，因此不論是居民與否，皆可進出自如。走進其中兩廈的狹縫，站在都市森林的地面，舉頭仰望，隨時可以看到舊香港的圖畫，嗅到那時的味道。可惜的是，視野再廣闊一點，便發現這片土地，已被四周的高樓大廈所包圍。
+" android:textSize="20sp" />
+        <Button
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/t2"
+            android:background="@drawable/shape"
+            android:text="更多資訊 More Information"
+            android:textSize="20dp"/>
+        <Button
+            android:id="@+id/loc1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/view"
+            android:background="@drawable/shape"
+            android:text="路線"
+            android:textSize="50dp"/>
+
+
+    </LinearLayout>
+
+</ScrollView>
